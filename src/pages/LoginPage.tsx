@@ -76,7 +76,7 @@ export default function LoginPage({ onLogin }) {
           <CardContent sx={{ p: 5 }}>
             <Typography
               variant="h4"
-              fontWeight="bold"
+              sx={{ fontWeight: "bold" }}
               gutterBottom
             >
               Plus Auth
@@ -85,7 +85,7 @@ export default function LoginPage({ onLogin }) {
             <Typography
               variant="body1"
               color="text.secondary"
-              mb={4}
+              sx={{ mb: 4 }}
             >
               Sistema de autenticação da plataforma Plus
             </Typography>
